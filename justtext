@@ -1,0 +1,63 @@
+First of all, thank you very much for giving me an opportunicy to introduce myself.
+I'm Prachi Nagdeve, an undergrad of IT department of National Institute of Technology, Raipuur. I'm a native of Nagpur, Maharashtra. Apart from being a student I also play a role of PR domain lead and a head coordinator in the official coding club of our college, i.e, Turing Club of Programmers.
+I have learnt and improved myself in many aspects like communication, teamwork, problem solving, etc in my two month intern phase at avery well known company called OPTUM. During this internship tenure, I along with my other 3 teammates developed a testing automation framework to automate API-based test scenarios. During these months I took a closer glance at how coorporate world actually works.
+Talking about my interest, I love to design websites. I have also explored machine learning while working on the project called "Autism Spectrum Disorder detection". Also, I have wored on many other projects like "Notation Ninja", "Text-to-speech converter" and "Travel Blog".I have also explored the field of Machine Learning while working on the project called," Autism Spectrum Disorder Detection".  I have keen interest in some fundamental subjects like OOPs, OS, DBMS,etc. That's a bit about me, Thank you. 
+
+
+
+AUTISM
+My project is based on machine learning approach to the classification problem of autism spectrum disorder detection. So basically we took a dataset from University of California Irvine Machine Learning Repository which contained 800 rows and 22 features. Some of the features are gender, age, ethnicity. if a person has jaundice or not and A1 to A10 are the questions asked on the app on which this dataset was collected.
+ Dataset which we used was already cleaned as we checked for the missing values using is.na().sum() function and we did not find any missing values.We built violin plot using seaborn library to detect outliers and found out that there were no outliers. 
+After this we did data visualisation and found out that the two classes are not balanced. Autist class had 23% of the rows and non autist contained about 77% of the dataset. So we did random Sampling to balance the classes.  Label Encoding of the target variable was done using the LabelEncoder present in sci-kit learn library. This was the univariate analysis we had done on the dataset.
+Now we performed feature selection using one way ANOVA. ANALYSIS OF VARIANCE. It is a statistical method used to compare  means of two or more groups to determine if there are any statistical significant difference among them. And second Feature selection was pearson's corelation coefficient. which basically claculates if the two variables are corelated with each other. And by using logisctic regression sigmoid function, we got an accuracy of 92%. 
+         1
+Y= --------------
+        -(a0+a1x)
+    1+e
+y= predicting variable, will be between 0-1.
+
+
+
+OPTUM
+During these 2 months intern phase, I along with my other 3 team mates developed a testing automation framework to automate API- based test scenarios. Testing on the tool was done manually which was very time taking and inefficient. The tool required a constant support of automation framework which makes it scalable by reducing it's time consuming flaw. We have created many scenarios by performing CRUD operations on different endpoints. And to conclude we have created a cucumber and a courgett Report in Jenkins. We have covered a total of 150 test cases both positive and negative. Finally our code was added to the production.
+
+
+
+TEXT-TO-SPEECH
+The Text-to-Speech Converter project is a web-based application developed using HTML, CSS, and JavaScript, designed to seamlessly convert written text into spoken words. The user interface is crafted with HTML, ensuring a structured and accessible layout, while CSS styles enhance the visual appeal, making it both functional and aesthetically pleasing.
+The backbone of the project lies in JavaScript, where the magic of text-to-speech conversion takes place. JavaScript enables the interaction between the user interface and the underlying functionality, allowing users to input text and receive an instant, synthesized audio output. 
+The structure begins with the HTML5 doctype declaration and defines the document's language and direction. The <head> section includes metadata such as the character set, the viewport configuration for responsive design, a title for the webpage, and a link to an external stylesheet. The body of the document is divided into a wrapper <div> containing a header, a form with two input fields (textarea for text input and a select dropdown for choosing a voice), and a button to initiate the text-to-speech conversion.
+The JavaScript section starts by selecting relevant HTML elements using document.querySelector. It initializes variables and defines functions responsible for populating the voice options, handling the text-to-speech conversion, and managing the play/pause functionality. The voices() function populates the voice dropdown with available options, and the textToSpeech(text) function creates a SpeechSynthesisUtterance and associates the selected voice before triggering speech synthesis. The event listener on the "Convert To Speech" button checks if there's text in the textarea, initiates the conversion, and dynamically updates the button's label based on the text length, providing options for pausing and resuming speech for longer texts. The script utilizes the Web Speech API, taking advantage of the browser's built-in text-to-speech capabilities for a seamless and accessible user experience.
+
+
+
+NOTATION NINJA
+Notation Ninja is a fascinating project designed to make our lives easier when dealing with mathematical expressions. The project's primary goal is to convert expressions between different notations, namely infix, prefix, and postfix. 
+When you open the application in your web browser, you'll be greeted with a clean design. The HTML markup structures the content, ensuring a logical flow, while CSS styles it, making the interface visually appealing and easy to navigate. 
+Underneath this lies the brain of the Notation Ninja – JavaScript. It enables real-time conversion of expressions between infix, prefix, and postfix notations. As you input an expression in one format, JavaScript processes the data and instantly displays the converted expression in the chosen notation.
+For example, when converting from infix to prefix, the algorithm scans the infix expression and uses a stack to keep track of operators, ensuring the correct order of operations. The code defines a function called infixToPrefix that takes an Infix expression as input and returns the corresponding Prefix expression.
+The function uses a stack to manage operators during the conversion process. It iterates through each character of the Infix expression, handling operands and operators accordingly. When an operand is encountered, it is directly added to the output. For operators, the code ensures proper precedence by comparing them and popping from the stack as needed. Parentheses are also appropriately managed to maintain the correct order of operations. The result, a Prefix expression, is then displayed on the web page when a user submits an Infix expression through the provided form.
+The last part of the code adds an event listener to the form, triggering the conversion function when the user submits an Infix expression. This interactive aspect enhances the user experience, making the Notation Ninja project a user-friendly tool for converting mathematical expressions between different notations. The JavaScript code implements these algorithms intelligently, making the Notation Ninja a reliable tool for mathematicians, students, and anyone working with mathematical expressions.
+
+
+
+QUESTIONS
+Who is your biggest motivators and demotivators? 
+My parents, teachers and mentors are my biggest motivators. Their belief in my abilities and their love provide me with the strength and confidence to pursue my goals. Their sacrifices and hard work inspire me to fight for success and make them proud.
+My maths teacher, Miss. Seema Awasti has been my biggest motivator because of the way she inspired me to overcome challenges. There was a time when I was struggling in math, feeling frustrated and ready to give up. Awasti mam supported me through the tough time, she encouraged me to break the problem into smaller parts and take it step by step. She shared a story of her own struggles with math during her student days, highlighting that a positive mindset were key. Her guidance not only helped me in gaining confidence in maths but also taught me the importance of believing in myself.
+Talking about demotivators, my biggest demotivator is sometimes my own self-doubt. When facing challenging courses, projects, or job uncertainties, I may occasionally question my abilities, leading to moments of discouragement. However, I recognize these feelings and work to overcome them, using setbacks as opportunities for growth and improvement.
+
+Why do you feels you fit best in this job role?
+I believe I am well-suited for the role due to a combination of my academic background, internship experience, and leadership roles. My educational journey at NIT Raipur has equipped me with a strong foundation in Information Technology, providing me with the necessary technical knowledge and problem-solving skills.
+During my two-month internship at Optum, I had the opportunity to apply theoretical concepts to real-world scenarios, enhancing my practical skills. This experience has given me insights into IT operations, project management, and working within a corporate setting. Additionally, my active involvement as a domain lead and head coordinator at Turing Club of Programmers reflects my commitment to leadership and teamwork, skills that are crucial for a collaborative work environment at TATA Power.
+I am eager to bring my passion for IT, coupled with my ability to adapt and learn quickly, to contribute effectively to TATA Power's dynamic work environment. My experiences have built in me a dedication to excellence, and I am confident that my diverse skill set aligns well with the requirements of the role.
+
+One thing you would change in yourself?
+Taking care of myself often takes a back seat over academic and professional commitments. I want to prioritize self-care to maintain both physical and mental well-being. Balancing academics, club responsibilities, and personal time is a challenge. I wish I were better at managing these aspects of my life to ensure a healthier work-life balance. I have a tendency to aim for perfection in everything I do, but sometimes this leads to overthinking and delays. I wish I could find a balance, striving for excellence without getting caught up in unnecessary details.
+
+What will you choose between plant, corporate office and project site and why?
+I would choose to work in a corporate office. The reason is, in a corporate office, I can work with a team and learn new things every day. It's like being part of a big group where everyone has different skills, and we all work together to achieve common goals. I feel that in a corporate office, I can use my IT knowledge and coding skills effectively, and there are more opportunities for growth and learning about the industry.
+On the other hand, a project site might be more hands-on, but I prefer the organized and collaborative environment of a corporate office. It aligns better with my interests.
+
+How you came to know about this job?
+When the placement drive begun I was searching for jobs on various platforms off campus and while searching for a job opportunity which alligns with my goals, I came to know about tata power and then I got to know that TATA power is conducting an on campus recruitment drive. And this is how I got to know about TATA power.
